@@ -3,37 +3,30 @@ import { motion } from "framer-motion";
 
 const data = [
   {
-    img: "/canvaclone.png",
-    desc: "A canva clone",
-    title: "Canva Clone",
-    tools: ["Next.js", "cloudinaryai", "clerk", "shadcn"],
-    gitLink: "https://github.com/Arjun149133/Canva-Clone",
-    liveLink: "https://canva-dusky.vercel.app/",
+    img: "/bloggpage.png",
+    desc: "BlogPage is a comprehensive, user-friendly web application . This platform allows users to create, manage, and share their blogs",
+    title: "BloggPage website ",
+    tools: ["react.js", "redux", "appwrite", "tailwindcss","react router"],
+    gitLink: "https://github.com/Subham15112001/Blogging_webpage",
+    liveLink: "https://blogging-webpage-vs5s.vercel.app/",
   },
   {
-    img: "/twitterclone.png",
-    desc: "A Twitter clone built using Next.js and Firebase. The application replicates many of the core features of Twitter, including user authentication, posting tweets, liking tweets, commenting on tweets. Users can sign up, log in. The application utilizes Firebase for real-time data synchronization, allowing users to see updates instantly.",
-    title: "Twitter Clone",
-    tools: ["Next.js", "Firebase", "Tailwind.css", "Recoil"],
-    gitLink: "https://github.com/Arjun149133/twitter-clone",
-    liveLink: "https://twitter-clone-psi-henna.vercel.app/",
+    img: "/shopPage.png",
+    desc: "A shopping page built using react.js and appwrite. The application use fakestore api to get items, it has many features like user authentication , using redux to keep track of user basket also store it in appwrite and calculate total price simultaneously",
+    title: "Shopping page",
+    tools: ["react.js", "appwrite", "Tailwind.css", "redux","react router"],
+    gitLink: "https://github.com/Subham15112001/shopping_cart",
+    liveLink: "https://shopping-cart-nine-teal.vercel.app/",
   },
   {
-    img: "/shopkart.png",
-    desc: "ShopCart is a modern online shopping cart application developed using ViteReact, Redux, and various other cutting-edge technologies. Users can browse through a wide range of products, easily add items to their cart, and proceed to checkout effortlessly. One of the standout features of ShopCart is its advanced filter search functionality. The application also includes essential features such as user authentication.",
-    title: "ShopCart",
-    tools: ["React", "Redux", "tailwindcss"],
-    gitLink: "https://github.com/Arjun149133/ShopKart-vite",
-    liveLink: "https://shopkart-arj.netlify.app/",
+    img: "/youtube_crud.png",
+    desc: "it is an Api for platform like youtube for crud operation ,it has user,video,subscription,like and playlist models",
+    title: "youtube crud operation backend",
+    tools: ["express", "mongo DB", "mongoose","cloudinary","node js"],
+    gitLink: "https://github.com/Subham15112001/backend-proff",
+    liveLink: "https://github.com/Subham15112001/backend-proff",
   },
-  // {
-  //   img: "/promptopia.png",
-  //   desc: "Next.js-powered AI Prompt Sharing Platform. Leveraging MongoDB for its robust database capabilities and Google authentication with NextAuth for seamless user access, our platform offers a comprehensive CRUD (Create, Read, Update, Delete) experience. Each user enjoys a personalized profile page, providing a hub for managing and sharing their unique collection of prompts.Our platform boasts powerful search functionality, enabling users to explore prompts based on keywords, tags, or related terms.",
-  //   title: "Share AI Prompts",
-  //   tools: ["NextJs", "MongoDB", "tailwindcss", "NextAuth"],
-  //   gitLink: "https://github.com/Arjun149133/share_promts",
-  //   liveLink: "https://share-ai-prompts-nine.vercel.app/",
-  // },
+
 ];
 
 const MyProjects = () => {

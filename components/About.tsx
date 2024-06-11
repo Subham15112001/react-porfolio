@@ -31,14 +31,14 @@ const About = () => {
         >
           <Image
             src="/screen.svg"
-            alt="arjun"
+            alt="subham"
             width={250}
             height={500}
             className=" rounded-full h-32 w-32 lg:h-60 lg:w-60 object-contain "
           />
           <Image
-            src="/pfp.png"
-            alt="arjun"
+            src="/pdf_tart.png"
+            alt="subham"
             width={250}
             height={500}
             className=" rounded-full h-32 w-32 lg:h-60 lg:w-60 object-contain absolute lg:translate-x-3 duration-500 ease-in-out cursor-pointer lg:-translate-y-3 lg:hover:translate-y-0 lg:hover:translate-x-0 border-white border-2"
@@ -68,10 +68,15 @@ const About = () => {
             <p
               className={`text-sm lg:text-lg flex-wrap p-1 lg:p-7 text-white leading-relaxed ${laila.className}`}
             >
-              With a strong foundation in web fundamentals, I specialize in
-              crafting bespoke sites that attract customers and empower small
-              businesses. Let's work together to elevate your online presence
-              and bring your vision to life.
+             Hello! I'm a passionate  Full Stack Web Developer and Competitive Programmer. 
+             With a good foundation in both front-end and back-end technologies, 
+              create dynamic, user-friendly websites and applications. 
+              My expertise spans HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and Mongoose.
+              
+
+          Beyond web development, I thrive in the realm of competitive programming. 
+          I enjoy tackling complex algorithms and data structures, consistently participating in coding competitions
+           
             </p>
           </div>
           <div className=" max-md:text-center mb-2 lg:ml-10 ">

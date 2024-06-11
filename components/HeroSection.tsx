@@ -15,7 +15,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-3xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-700">
-              Hello, I'm{" "}
+              Hello, I'm{""}
             </span>
             <br />
             <TypeAnimation
@@ -40,8 +40,8 @@ const HeroSection = () => {
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-6 bg-gradient-to-r from-purple-400 to-purple-700 hover:bg-gradient-to-r hover:from-slate-800 hover:to-slate-700 text-white hover:text-purple-500 ">
               <a
-                href="/resume.pdf"
-                download="resume-arjun1.pdf"
+                href="/SubhamBehera_ElectricalEngineering.pdf"
+                download="SubhamBehera_ElectricalEngineering.pdf"
                 rel="noreferrer"
               >
                 Download Resume
@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className=" flex justify-center items-center mt-7 space-x-4 lg:space-x-10 opacity-95">
             <div>
               <Image
-                onClick={() => window.open("https://github.com/Arjun149133")}
+                onClick={() => window.open("https://github.com/Subham15112001")}
                 src="/github.svg"
                 alt="signature"
                 width={100}
@@ -63,7 +63,7 @@ const HeroSection = () => {
               <Image
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/arjun-yadav-4aa978261/"
+                    "https://www.linkedin.com/in/subham-behera-7a3144136/"
                   )
                 }
                 src="/linked.svg"
@@ -71,16 +71,6 @@ const HeroSection = () => {
                 width={100}
                 height={100}
                 className=" h-7 sm:h-10  cursor-pointer bg-white w-fit rounded-md"
-              />
-            </div>
-            <div>
-              <Image
-                onClick={() => window.open("https://twitter.com/AArjunY")}
-                src="/tweet.svg"
-                alt="signature"
-                width={100}
-                height={100}
-                className=" h-7 sm:h-10  cursor-pointer bg-white w-fit rounded-lg"
               />
             </div>
           </div>

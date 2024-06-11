@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#000000]">
       <StarsCanvas isPaused={isAnimationPaused} />
-      <Signature img="/arj.svg" />
+      {/* <Signature img="" /> */}
       <Navbar
         toggleAnimation={toggleAnimation}
         isAnimationPaused={isAnimationPaused}

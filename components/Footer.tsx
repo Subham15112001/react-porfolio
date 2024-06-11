@@ -6,13 +6,13 @@ const Footer = () => {
     <section className=" min-h-screen flex flex-col justify-end z-40">
       <div className=" bg-white h-[467px]">
         <div className=" flex justify-center mt-7">
-          <Image
+          {/* <Image
             src="/Signature.svg"
             alt="signature"
             width={100}
             height={100}
             className=" sm:h-28 sm:w-32"
-          />
+          /> */}
         </div>
         <div className=" px-4 lg:px-28 mt-5">
           <div className=" flex max-sm:flex-col max-sm:space-y-2 max-sm:items-center justify-center space-x-2 sm:space-x-10 text-gray-900 cursor-pointer max-sm:text-sm">
@@ -45,7 +45,7 @@ const Footer = () => {
           <div className=" flex justify-center mt-10">
             <div>
               <Image
-                onClick={() => window.open("https://github.com/Arjun149133")}
+                onClick={() => window.open("https://github.com/Subham15112001")}
                 src="/github.svg"
                 alt="signature"
                 width={100}
@@ -57,7 +57,7 @@ const Footer = () => {
               <Image
                 onClick={() =>
                   window.open(
-                    "https://www.linkedin.com/in/arjun-yadav-4aa978261/"
+                    "https://www.linkedin.com/in/subham-behera-7a3144136/"
                   )
                 }
                 src="/linked.svg"
@@ -67,16 +67,7 @@ const Footer = () => {
                 className=" h-7 sm:h-10  cursor-pointer"
               />
             </div>
-            <div>
-              <Image
-                onClick={() => window.open("https://twitter.com/AArjunY")}
-                src="/tweet.svg"
-                alt="signature"
-                width={100}
-                height={100}
-                className=" h-7 sm:h-10  cursor-pointer"
-              />
-            </div>
+       
           </div>
           <div className="flex justify-center mt-20 text-sm text-gray-800 font-light">
             <p>Subham 2024 ©</p>
